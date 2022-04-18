@@ -1,12 +1,9 @@
-import './App.css';
 import { Link } from "react-router-dom"
-import { Outlet } from "react-router-dom";
 
-
-function App() {
-  return (
-    <div className="App">
-      <nav
+function Projects() {
+    return (
+      <div style={{ padding: "1rem 0" }}>
+            <nav
         style={{
           borderBottom: "solid 1px",
           paddingBottom: "1rem",
@@ -16,10 +13,9 @@ function App() {
         <Link to="/Projects">Projects</Link> |{" "}
         <Link to="/Contact">Contact</Link>
       </nav>
-      <Outlet/>
-      <h1>Hello Jessy</h1>
-    </div>
-  );
-}
+        <h2>Projects</h2>
+      </div>
+    );
+  }
 
-export default App;
+  export default Projects
