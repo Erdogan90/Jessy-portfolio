@@ -23,7 +23,7 @@ function App() {
       <h4>Helping businesses all over the world share their stories & grow their potential. One word at a time."</h4>
       </Col>
       </Row>
-      <Row classname={styles.logo}>
+      <Row className={styles.logo}>
       <Brands/>
       </Row>
     </div>

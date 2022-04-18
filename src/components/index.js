@@ -9,9 +9,10 @@ import trevecca from "../logo/trevecca_logo-01.jpg"
 import roka from "../logo/logo 1.jpg"
 import css from "../styles/brands.module.css"
 
+
 function Brands(){
 
-return <div>
+return <div className={css.caro}>
 <Carousel>
   <Carousel.Item>
     <img className={css.logos}
@@ -34,29 +35,31 @@ return <div>
   <Carousel.Item>
     <img className={css.logos}
       src={opry}
-      alt="Third slide"
+      alt="Fourth slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img className={css.logos}
       src={tarter}
-      alt="Third slide"
+      alt="Fith slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img className={css.logos}
       src={trevecca}
-      alt="Third slide"
+      alt="Sixth slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img className={css.logos}
       src={roka}
-      alt="Third slide"
+      alt="Seventh slide"
     />
   </Carousel.Item>
 </Carousel>
+
 </div>
 }
 
 export default Brands;
+

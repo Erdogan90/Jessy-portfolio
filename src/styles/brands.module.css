@@ -2,3 +2,14 @@
     height: 100px;
     width: 100px;
 }
+
+.caro{
+    justify-content: center;
+    text-align: center;
+    background: green;
+}
+
+
+.carousel-control-next-icon{
+    border: solid red 2px;
+}
