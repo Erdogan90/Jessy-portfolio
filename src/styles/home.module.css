@@ -1,8 +1,32 @@
-.nav{
-    border: solid 2px red;
+body{
+    background: #fdfffc;
 }
 
-.header{
+.nav{
+    margin-top: 2px;
+    display: flex;
+    justify-content: right;
+    padding-right: 5px;
+}
+
+.main{
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.message{
+
+}
+
+.link {
+    color: inherit;
+    text-decoration: inherit;
+}
+.link:hover{
+    text-decoration: underline #283618 3px;
+}
+
+.log{
     border: solid 2px red;
-    text-align: center;
 }
