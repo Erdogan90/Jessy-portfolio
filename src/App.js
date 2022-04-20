@@ -2,6 +2,7 @@ import styles from './styles/home.module.css'
 import { Link } from "react-router-dom"
 import { Row, Col} from 'react-bootstrap';
 import Brands from './components/Brands/index';
+import Hero from './components/Hero';
 
 
 
@@ -19,8 +20,9 @@ function App() {
       </Row>
       <Row className={styles.main}>
       <Col>
-      <h3>"What, Who, Where & How.</h3>
-      <h4>Helping businesses all over the world share their stories & grow their potential. One word at a time."</h4>
+      <Hero/>
+      {/* <h3>"What, Who, Where & How.</h3>
+      <h4>Helping businesses all over the world share their stories & grow their potential. One word at a time."</h4> */}
       </Col>
       </Row>
       <Row className={styles.brands}>
