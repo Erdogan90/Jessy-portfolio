@@ -18,13 +18,15 @@ function App() {
       </Col>
       </Row>
       <Row className={styles.main}>
-      <Col className={styles.message}>
+      <Col>
       <h3>"What, Who, Where & How.</h3>
       <h4>Helping businesses all over the world share their stories & grow their potential. One word at a time."</h4>
       </Col>
       </Row>
-      <Row>
+      <Row className={styles.brands}>
+      <Col>
       <Brands/>
+      </Col>
       </Row>
     </div>
   );

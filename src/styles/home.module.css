@@ -2,17 +2,26 @@ body{
     background: #fdfffc;
 }
 
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    border: solid green 2px;
+}
+
 .nav{
     margin-top: 2px;
     display: flex;
     justify-content: right;
     padding-right: 50px;
+    border: solid 2px blue;
 }
 
 .main{
 display: flex;
 text-align: center;
 justify-content: center;
+border: solid 2px pink;
 }
 
 .link {
@@ -22,3 +31,10 @@ justify-content: center;
 .link:hover{
     text-decoration: underline #283618 3px;
 }
+
+/* .brands{
+    border: solid red 2px;   
+    padding: 2px;
+    align-self: flex-end;
+    margin-top: auto;
+} */
