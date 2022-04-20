@@ -1,5 +1,5 @@
-import React from "react"
-import { Carousel } from "react-bootstrap"
+import React, {Component} from "react"
+import Slider from "react-slick"
 import echelon from "../logo/echelon_logo-01.jpg"
 import genesco from "../logo/genesco_logo-01.jpg"
 import hunter from "../logo/hunter_logo-01.jpg"
@@ -10,47 +10,45 @@ import roka from "../logo/logo 1.jpg"
 import css from "../styles/brands.module.css"
 
 
-function Brands(){
 
-return <div className={css.caro}>
-<Carousel>
-  <Carousel.Item>
-    <img className={css.logos}
-      src={echelon}
-      alt="First slide"
-    />
-      <img className={css.logos}
-      src={genesco}
-      alt="Second slide"
-    />
-        <img className={css.logos}
-      src={hunter}
-      alt="Third slide"
-    />
-        <img className={css.logos}
-      src={opry}
-      alt="Fourth slide"
-    />
-  </Carousel.Item>
-
-  <Carousel.Item>
-    <img className={css.logos}
-      src={tarter}
-      alt="Fith slide"
-    />
-    <img className={css.logos}
-      src={trevecca}
-      alt="Sixth slide"
-    />
-    <img className={css.logos}
-      src={roka}
-      alt="Seventh slide"
-    />
-  </Carousel.Item>
-</Carousel>
-
-</div>
+export default class Brands extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear"
+    };
+    return (
+      <div>
+        <Slider {...settings}>
+          <div >
+            <img className={css.logos} src={echelon} alt="echelon logo"/>
+          </div>
+          <div >
+          <img className={css.logos} src={genesco} alt="genesco logo"/>
+          </div>
+          <div >
+          <img className={css.logos} src={hunter} alt="hunter logo"/>
+          </div>
+          <div >
+          <img className={css.logos} src={opry} alt="opry logo"/>
+          </div>
+          <div >
+          <img className={css.logos} src={tarter} alt="tarter logo"/>
+          </div>
+          <div >
+          <img className={css.logos} src={trevecca} alt="trevecca logo"/>
+          </div>
+          <div >
+          <img className={css.logos} src={roka} alt="roka logo"/>
+          </div>
+        </Slider>
+      </div>
+    );
+  }
 }
-
-export default Brands;
-

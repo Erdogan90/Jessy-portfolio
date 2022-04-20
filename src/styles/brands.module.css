@@ -1,16 +1,5 @@
 .logos{
     height: 100px;
     width: 100px;
-    justify-content: space-between;
 }
 
-.caro{
-    justify-content: center;
-    text-align: center;
-    background: green;
-}
-
-
-.carousel-control-next-icon{
-    border: solid red 2px;
-}
