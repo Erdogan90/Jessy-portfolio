@@ -19,38 +19,29 @@ return <div className={css.caro}>
       src={echelon}
       alt="First slide"
     />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img className={css.logos}
+      <img className={css.logos}
       src={genesco}
       alt="Second slide"
     />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img className={css.logos}
+        <img className={css.logos}
       src={hunter}
       alt="Third slide"
     />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img className={css.logos}
+        <img className={css.logos}
       src={opry}
       alt="Fourth slide"
     />
   </Carousel.Item>
+
   <Carousel.Item>
     <img className={css.logos}
       src={tarter}
       alt="Fith slide"
     />
-  </Carousel.Item>
-  <Carousel.Item>
     <img className={css.logos}
       src={trevecca}
       alt="Sixth slide"
     />
-  </Carousel.Item>
-  <Carousel.Item>
     <img className={css.logos}
       src={roka}
       alt="Seventh slide"
