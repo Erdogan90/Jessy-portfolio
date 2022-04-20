@@ -1,13 +1,13 @@
 import React, {Component} from "react"
 import Slider from "react-slick"
-import echelon from "../logo/echelon_logo-01.jpg"
-import genesco from "../logo/genesco_logo-01.jpg"
-import hunter from "../logo/hunter_logo-01.jpg"
-import opry from "../logo/opry_logo-01.jpg"
-import tarter from "../logo/tarter_logo-01.jpg"
-import trevecca from "../logo/trevecca_logo-01.jpg"
-import roka from "../logo/logo 1.jpg"
-import css from "../styles/brands.module.css"
+import echelon from "../../logo/echelon_logo-01.jpg"
+import genesco from "../../logo/genesco_logo-01.jpg"
+import hunter from "../../logo/hunter_logo-01.jpg"
+import opry from "../../logo/opry_logo-01.jpg"
+import tarter from "../../logo/tarter_logo-01.jpg"
+import trevecca from "../../logo/trevecca_logo-01.jpg"
+import roka from "../../logo/logo 1.jpg"
+import css from "../../styles/brands.module.css"
 
 
 
