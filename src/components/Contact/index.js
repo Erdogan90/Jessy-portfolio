@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
+import { Button, Form } from "react-bootstrap";
+import css from "../../styles/form.module.css"
 
 
 const Result =()=>{
   return (
-    <h6>Your message has been successfully sent</h6>
+    <h6 >Your message has been successfully sent</h6>
   )
 }
 
@@ -32,30 +34,32 @@ function ContactForm(){
 
     return (
       <form action="" onSubmit={sendEmail}>
-      <div className="formWord">
-      <h2>Say Hello!</h2>
-      <span>Full Name</span>
-      <br />
-      <input className="input10e" type="text" name="fullName" required />
-      <br />
-      <span>Phone Number</span>
-      <br />
-      <input className="input100" type="text" name="phone" required />
-      <br />
-      <span>Email</span>
-      <br />
-      <input className="input10e" type="text" name="email" required />
-      <br />
-      </div>
-      <div className="formword">
-      <span>Message</span>
-        <br/>
-        <textarea name="message" required></textarea>
-        <br/>
-        <button>SUBMIT</button>
-        <div className="row">
+
+            <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
+            <Form.Label>Name</Form.Label>
+            <Form.Control placeholder="Name" name="fullName" />
+            </Form.Group>
+
+            <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control type="email" placeholder="Email" name="email" />
+            </Form.Group>
+
+            <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
+            <Form.Label>Phone Number</Form.Label>
+            <Form.Control placeholder="Contact Number" name="phone" />
+            </Form.Group>
+
+            <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" rows={5} placeholder="Enter your message" name="message" />
+            </Form.Group>
+      
+            <Button type="submit" className={css.button}>
+              Submit
+            </Button>
+        <div className={css.message}>
           {result ? <Result/> : null}
-        </div>
         </div>
         </form>
       );
