@@ -2,21 +2,9 @@ body{
     background: #fdfffc;
 }
 
-.page{
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    height: 100vh;
-}
-
 .nav{
     display: flex;
     justify-content: right;
-}
-
-.main{
-display: flex;
-text-align: center;
 }
 
 .link {
@@ -27,7 +15,8 @@ text-align: center;
     text-decoration: underline #283618 3px;
 }
 
-.brands{
-    display: flex; 
-    width: 100%;
+.page{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
 }
