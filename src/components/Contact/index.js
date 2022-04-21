@@ -5,7 +5,7 @@ function ContactForm(){
         <div class="container">
           <div class="row">
             <div class="col align-self-center">
-              <h1 class="text-center">Email - JavaScript Contact Form</h1>
+              <h1 class="text-center">Contact me for help on your project</h1>
               {/* <!-- contact form --> */}
               <form>
                 {/* <!-- name --> */}
@@ -16,7 +16,7 @@ function ContactForm(){
                     name="name"
                     class="form-control"
                     id="name"
-                    placeholder="enter your name"
+                    placeholder="Enter your name"
                   />
                 </div>
     
@@ -28,7 +28,7 @@ function ContactForm(){
                     name="email"
                     class="form-control"
                     id="email"
-                    placeholder="enter your email"
+                    placeholder="Enter your email"
                   />
                 </div>
     
@@ -40,7 +40,7 @@ function ContactForm(){
                     name="subject"
                     class="form-control"
                     id="subject"
-                    placeholder="enter email subject"
+                    placeholder="Enter email subject"
                   />
                 </div>
     

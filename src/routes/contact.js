@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ContactForm from "../components/Contact";
 import css from "../styles/contact.module.css"
 
 function Contact() {
@@ -10,6 +11,7 @@ function Contact() {
         <Link className={css.link} to="/Contact">Contact</Link>
       </nav>
         <h2>Contact</h2>
+        <ContactForm/>
       </div>
     );
   }
