@@ -1,79 +1,63 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from 'emailjs-com';
-import { useRef } from 'react';
+
+
+const Result =()=>{
+  return (
+    <h6>Your message has been successfully sent</h6>
+  )
+}
 
 function ContactForm(){
-  const form = useRef();
+  const [result, showResult] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('Contact Form', 'contact_form.', form.current, 'byBP9w7D6hoAcOe1m')
-      .then((result) => {
+    emailjs.sendForm('service_7zgqr5h', 'contact_form.', e.target, 'byBP9w7D6hoAcOe1m')
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
+      e.target.reset();
+      showResult(true)
   };
 
+  setTimeout(()=>{
+    showResult(false)
+  }, 3000)
+
     return (
-        <div class="container">
-          <div class="row">
-            <div class="col align-self-center">
-              <h1 class="text-center">Contact me for help on your project</h1>
-              {/* <!-- contact form --> */}
-              <form ref={form} onSubmit={sendEmail}>
-                {/* <!-- name --> */}
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input
-                    type="name"
-                    name="name"
-                    class="form-control"
-                    id="name"
-                    placeholder="Enter your name"
-                  />
-                </div>
-    
-                {/* <!-- email --> */}
-                <div class="form-group">
-                  <label for="email">Email address</label>
-                  <input
-                    type="email"
-                    name="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Enter your email"
-                  />
-                </div>
-    
-                {/* <!-- subject --> */}
-                <div class="form-group">
-                  <label for="subject">Subject</label>
-                  <input
-                    type="text"
-                    name="subject"
-                    class="form-control"
-                    id="subject"
-                    placeholder="Enter email subject"
-                  />
-                </div>
-    
-                <div class="form-group">
-                  <label for="email_body">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="email_body"
-                    rows="5"
-                  ></textarea>
-                </div>
-    
-                <button type="submit" class="btn btn-primary">
-                  Submit
-                </button>
-              </form>
-            </div>
-          </div>
+      <form action="" onSubmit={sendEmail}>
+      <div className="formWord">
+      <h2>Say Hello!</h2>
+      <span>Full Name</span>
+      <br />
+      <input className="input10e" type="text" name="fullName" required />
+      <br />
+      <span>Phone Number</span>
+      <br />
+      <input className="input100" type="text" name="phone" required />
+      <br />
+      <span>Email</span>
+      <br />
+      <input className="input10e" type="text" name="email" required />
+      <br />
+      </div>
+      <div className="formword">
+      <span>Message</span>
+        <br/>
+        <textarea name="message" required></textarea>
+        <br/>
+        <button>SUBMIT</button>
+        <div className="row">
+          {result ? <Result/> : null}
         </div>
+        </div>
+        </form>
       );
 }
 
