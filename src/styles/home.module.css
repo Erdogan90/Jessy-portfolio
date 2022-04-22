@@ -7,6 +7,9 @@ body{
 .page{
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 1em;
 }
 
 .nav{
@@ -15,6 +18,7 @@ body{
     padding:1em 2em 2em 1em;
     background: #dda15e;
     color: white;
+    justify-self: flex-start;
 }
 
 
@@ -36,6 +40,7 @@ body{
     text-align: center;
     background: #dda15e;
     color: white;
+    
 }
 
 .curve{
@@ -73,14 +78,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 200px;
     text-align: center;
     background: #ffffff;
     color: rgb(0, 0, 0);
-    margin-top: 10%;
-    padding: 1em;
 }
-
+/* 
 .curvetwo{
     position: absolute;
     height: 150px;
@@ -97,7 +99,7 @@ body{
     height: 100%;
     background-color: rgb(255, 255, 255);
     transform: translate(60%, 80%);
-}
+} */
 
 .curvetwo::after{
     content: '';
@@ -115,8 +117,6 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    min-height: 300px;
     color: white;
-    padding: 1em;
 }
 
