@@ -1,6 +1,6 @@
 import styles from './styles/home.module.css'
 import { Link } from "react-router-dom"
-import { Row, Col} from 'react-bootstrap';
+import { Row} from 'react-bootstrap';
 import Brands from './components/Brands/index';
 
 
