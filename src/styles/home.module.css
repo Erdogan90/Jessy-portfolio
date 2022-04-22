@@ -83,7 +83,7 @@ body{
     padding: 0em 1em;
 }
 
-.curvetwo{
+/* .curvetwo{
     position: absolute;
     height: 150px;
     width: 100%;
@@ -111,7 +111,7 @@ body{
     background-color: #ffffff;
     transform: translate(-10%, 10%);
     z-index: -1;
-}
+} */
 
 .brands{
     position: relative;
