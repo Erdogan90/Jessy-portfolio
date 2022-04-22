@@ -9,7 +9,6 @@ body{
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
-    padding: 1em;
 }
 
 .nav{
@@ -81,6 +80,8 @@ body{
     text-align: center;
     background: #ffffff;
     color: rgb(0, 0, 0);
+    padding: 0em 1em;
+    border: solid red 2px;
 }
 /* 
 .curvetwo{
