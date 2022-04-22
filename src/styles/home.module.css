@@ -1,23 +1,29 @@
 body{
     background: #fdfffc;
+    margin: 0;
 }
 
 .page{
     display: flex;
     flex-direction: column;
-    padding: 1em;
-    height: 100vh;
+    border: solid 3px red;
 }
 
 .nav{
     display: flex;
     justify-content: right;
+    padding:1em 2em 2em 1em;
 }
 
-.main{
-display: flex;
-text-align: center;
+.text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    text-align: center;
 }
+
 
 .link {
     color: inherit;
@@ -28,6 +34,10 @@ text-align: center;
 }
 
 .brands{
-    display: flex; 
-    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+

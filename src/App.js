@@ -16,13 +16,11 @@ function App() {
         <Link className={styles.link} to="/Contact">Contact</Link>
       </nav>
       </Row>
-      <Row className={styles.main}>
-      <Col>
+      <Row className={styles.text}>
       <h3>"What, Who, Where & How.</h3>
       <h4>Helping businesses all over the world share their stories & grow their potential. One word at a time."</h4>
-      </Col>
       </Row>
-      <Row className={styles.brands} >
+      <Row className={styles.Brands} >
       <Brands/>
       </Row>
     </div>
