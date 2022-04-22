@@ -1,27 +1,20 @@
 body{
-    background: #fdfffc;
-    margin: 0;
+    /* background: #fdfffc;
+    margin: 0; */
+    overflow-x: hidden;
 }
 
 .page{
     display: flex;
     flex-direction: column;
-    border: solid 3px red;
 }
 
 .nav{
     display: flex;
     justify-content: right;
     padding:1em 2em 2em 1em;
-}
-
-.text{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 400px;
-    text-align: center;
+    background: #dda15e;
+    color: white;
 }
 
 
@@ -33,11 +26,97 @@ body{
     text-decoration: underline #283618 3px;
 }
 
-.brands{
+
+.text{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 250px;
     text-align: center;
+    background: #dda15e;
+    color: white;
+}
+
+.curve{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+}
+
+.curve::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transform: translate(60%, 80%);
+}
+
+.curve::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #dda15e;
+    transform: translate(-10%, 10%);
+    z-index: -1;
+}
+
+.about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+    padding: 1em;
+}
+
+.curvetwo{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+}
+
+.curvetwo::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transform: translate(60%, 80%);
+}
+
+.curvetwo::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transform: translate(-10%, 10%);
+    z-index: -1;
+}
+
+.brands{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    color: white;
+    padding: 1em;
 }
 
