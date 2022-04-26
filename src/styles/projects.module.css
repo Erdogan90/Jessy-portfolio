@@ -15,14 +15,13 @@ body{
 }
 
 .page{
-padding: 1em;
+    display: flex;
+    padding: 1em;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .col{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     margin-top: 1em;
 }
 
@@ -30,4 +29,9 @@ padding: 1em;
     display: flex;
     text-align: center;
     justify-content: space-around;
+}
+
+.row{
+    width: 0;
+    bs-gutter-x: unset;
 }
