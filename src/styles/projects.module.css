@@ -31,7 +31,9 @@ body{
     justify-content: space-around;
 }
 
-.row{
-    width: 0;
-    bs-gutter-x: unset;
+
+.header{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
