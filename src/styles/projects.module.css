@@ -15,7 +15,12 @@ body{
 }
 
 .page{
+padding: 1em;
+}
+
+.col{
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    padding: 1em;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
