@@ -23,4 +23,11 @@ padding: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
