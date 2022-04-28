@@ -3,14 +3,14 @@ import React from "react";
 import css from "../../styles/projectcard.module.css"
 
 
-function ProjectCard({image, title}){
+function ProjectCard({image, title, leftButton, rightButton}){
     return <div>
-    <Card style={{ width: '20rem' }}>
+    <Card className={css.card}>
     <Card.Img variant="top" src={image} />
     <Card.Body>
     <Card.Title>{title}</Card.Title>
-    <Button className={css.button} variant="primary">Go somewhere</Button>
-    <Button className={css.button} variant="primary">Go somewhere</Button>
+    <Button className={css.button} variant="primary">{leftButton}</Button>
+    <Button className={css.button} variant="primary">{rightButton}</Button>
     </Card.Body>
     </Card>
 </div>
