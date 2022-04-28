@@ -18,7 +18,7 @@ function Projects() {
         </Row>
         <Row className={css.row}>
         <Col className={css.col}>
-        <ProjectCard leftButton={'Echelon'} rightButton={'Nashville shoe warehouse'} title={'Blog Work'} image={"https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"}/>
+        <ProjectCard leftClick={"https://echelonfit.com/blogs/blog/walking-a-path-to-a-healthier-you"} leftButton={'Echelon'} rightButton={'Nashville shoe warehouse'} title={'Blog Work'} image={"https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"}/>
         </Col>
         <Col className={css.col}>
         <ProjectCard leftButton={'Echelon'} rightButton={'Nashville shoe warehouse'} title={'E-Commerce'} image={"https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>

@@ -1,7 +1,13 @@
 .button{
 margin-left: 0.5em;
+color: white;
+;
 }
 
 .card{
     width: 20em;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
 }
