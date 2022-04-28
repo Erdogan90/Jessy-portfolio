@@ -1,13 +1,15 @@
-.button{
-margin-left: 0.5em;
+.button a:visited{
 color: white;
-;
+}
+
+.button{
+    margin-left: 0.5em;
 }
 
 .card{
-    width: 20em;
+    width: 22em;
 }
 
-a:visited {
-    color: rgb(255, 255, 255);
+a{
+    text-decoration: none;
 }
