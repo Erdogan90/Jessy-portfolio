@@ -6,7 +6,7 @@ import css from "../../styles/projectcard.module.css"
 function ProjectCard({image, title, leftButton, rightButton, leftClick, rightClick}){
     return <div>
     <Card className={css.card}>
-    <Card.Img variant="top" src={image} />
+    <Card.Img className={css.picture} variant="top" src={image} />
     <Card.Body>
     <Card.Title>{title}</Card.Title>
     <Button className={css.button} variant="primary"><a href={leftClick}>{leftButton}</a></Button>

@@ -50,9 +50,22 @@ body{
     
     .card{
         width: 22em;
+        overflow: hidden;
     }
     
     a{
         text-decoration: none;
         color: white;
     }
+
+    .picture{
+        opacity: 0.8;
+    }
+    
+    .picture:hover{
+        opacity:unset;
+    }
+    
+    img.picture:hover {
+        transform: scale(1.1);
+      }

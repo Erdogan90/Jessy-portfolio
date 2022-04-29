@@ -3,6 +3,9 @@ import css from "../styles/projects.module.css"
 import { Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Project-Card";
 import { Card, Button } from "react-bootstrap";
+import nashville from "../images/Nashville shoe up.jpg"
+import echelon from "../images/echelon.JPG"
+import opry from "../images/Opry edited.jpg"
 
 
 function Projects() {
@@ -26,7 +29,7 @@ function Projects() {
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
-      <Card.Img variant="top" src={"https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"} />
+      <Card.Img className={css.picture} variant="top" src={opry} />
       <Card.Body>
       <Card.Title>"Ideation & Branding"</Card.Title>
       <Button className={css.button} variant="primary"><a href={"https://www.opry.com/opry-5000-landing-page/"}>Opry</a></Button>
@@ -41,7 +44,7 @@ function Projects() {
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
-      <Card.Img variant="top" src={"https://images.unsplash.com/photo-1644952350841-070996fad2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"} />
+      <Card.Img className={css.picture} variant="top" src={"https://images.unsplash.com/photo-1644952350841-070996fad2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"} />
       <Card.Body>
       <Card.Title>Print</Card.Title>
       <Link to="/TrailerPdf">
