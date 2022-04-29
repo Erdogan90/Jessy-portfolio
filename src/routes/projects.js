@@ -40,7 +40,18 @@ function Projects() {
         <ProjectCard rightClick={"https://industrialfans.hunterfan.com/pages/warehouse"} leftClick={"https://www.trevecca.edu/academics/program/physician-assistant"} leftButton={'Hunter'} rightButton={'Trevecca'} title={'Web Copy'} image={"https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
         </Col>
         <Col className={css.col}>
-        <ProjectCard leftButton={'Trailer Upgrade'} rightButton={'Roka'} title={'Print'} image={"https://images.unsplash.com/photo-1644952350841-070996fad2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
+        <Card className={css.card}>
+      <Card.Img variant="top" src={"https://images.unsplash.com/photo-1644952350841-070996fad2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"} />
+      <Card.Body>
+      <Card.Title>Print</Card.Title>
+      <Link to="/TrailerPdf">
+      <Button className={css.button} variant="primary">Trailer upgrade</Button>
+      </Link>
+      <Link to="/RokaEuro">
+      <Button className={css.button} variant="primary">Roka</Button>
+      </Link>
+      </Card.Body>
+      </Card>
         </Col>
         </Row>
       </div>

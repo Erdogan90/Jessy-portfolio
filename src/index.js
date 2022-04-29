@@ -6,6 +6,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Contact from './routes/contact';
 import Projects from './routes/projects';
 import RokaPdf from './routes/rokapdf';
+import TrailerPdf from './routes/trailerpdf';
+import RokaEuro from './routes/rokaEuro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,8 @@ root.render(
   <Route path="contact" element={<Contact />} />
   <Route path="projects" element={<Projects />} />
   <Route path="rokapdf" element={<RokaPdf/>}/>
+  <Route path="trailerpdf" element={<TrailerPdf/>}/>
+  <Route path="rokaEuro" element={<RokaEuro/>}/>
     </Routes>
   </BrowserRouter>
  
