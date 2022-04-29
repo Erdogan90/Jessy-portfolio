@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import css from "../styles/projects.module.css"
 import { Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Project-Card";
+import { Card, Button } from "react-bootstrap";
 
 
 function Projects() {
@@ -24,7 +25,16 @@ function Projects() {
         <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/collections/slippers/products/levis-harbin-mens-clog-slipper"} leftClick={"https://echelonfit.com/products/echelon-smart-connect-bike-ex5"} leftButton={'Echelon'} rightButton={'Nashville shoe warehouse'} title={'E-Commerce'} image={"https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
         </Col>
         <Col className={css.col}>
-        <ProjectCard rightClick={"/RokaPdf"} leftClick={"https://www.opry.com/opry-5000-landing-page/"} leftButton={'Opry'} rightButton={'Roka'} title={'Ideation & Brand Development'} image={"https://images.unsplash.com/photo-1609372697655-65d874e3fe60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
+        <Card className={css.card}>
+      <Card.Img variant="top" src={"https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"} />
+      <Card.Body>
+      <Card.Title>"Ideation & Branding"</Card.Title>
+      <Button className={css.button} variant="primary"><a href={"https://www.opry.com/opry-5000-landing-page/"}>Opry</a></Button>
+      <Link to="/RokaPdf">
+      <Button className={css.button} variant="primary">Roka</Button>
+      </Link>
+      </Card.Body>
+      </Card>
         </Col>
         <Col className={css.col}>
         <ProjectCard leftButton={'Hunter'} rightButton={'Trevecca'} title={'Web Copy'} image={"https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
