@@ -17,9 +17,8 @@ body{
   border: #5d737e 1px thin;
 }
 .link:hover{
-    box-shadow: inset 100px 0 0 0 #c03221;
+    box-shadow: inset 100px 0 0 0 #5d737e;
     color: white;
-    font-weight: bolder;
 }
 
 .page{
@@ -31,4 +30,12 @@ body{
 }
 .form{
     display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
 }

@@ -27,62 +27,35 @@ body{
   border: #5d737e 1px thin;
 }
 .link:hover{
-    box-shadow: inset 100px 0 0 0 #c03221;
+    box-shadow: inset 100px 0 0 0 #5d737e;
     color: white;
-    font-weight: bolder;
 }
 
 .text{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 250px;
     text-align: center;
-    background: #dda15e;
+    height: 50%;
+     background: #fdfffc;
     color: #02111b;
-    
-}
-
-.curve{
-    position: absolute;
-    height: 150px;
-    width: 100%;
-    bottom: 0;
-}
-
-.curve::before{
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 70%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    transform: translate(59%, 84%);
-}
-
-.curve::after{
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 100%;
-    height: 100%;
-    background-color: #dda15e;
-    transform: translate(-10%, 10%);
-    z-index: -1;
+    padding: 1em;
 }
 
 .about{
-    position: relative;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 0em 1em;
+    color:#02111b ;
+}
+.message{
+    /* height: 100%; */
+    background-color: #fdfffc;
+    margin: unset;
+    padding: 2em;
+    color: #02111b;
 }
 
 .brands{

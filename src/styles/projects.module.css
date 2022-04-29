@@ -8,7 +8,7 @@ body{
 }
 
 .link {
-    box-shadow: inset 0 0 0 0 #5d737e;
+    box-shadow: inset 0 0 0 0 #3a3238;
   color: #02111b;
   margin: 0.05rem;
   padding: 0 .25rem;
@@ -16,9 +16,8 @@ body{
   border: #5d737e 1px thin;
 }
 .link:hover{
-    box-shadow: inset 100px 0 0 0 #c03221;
+    box-shadow: inset 100px 0 0 0 #5d737e;
     color: white;
-    font-weight: bolder;
 }
 
 .page{
