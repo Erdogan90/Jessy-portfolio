@@ -39,3 +39,20 @@ body{
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.button a:visited{
+    color: white;
+    }
+    
+    .button{
+        margin-left: 0.5em;
+    }
+    
+    .card{
+        width: 22em;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
