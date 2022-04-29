@@ -1,10 +1,12 @@
 .div{
-    height: 100vh;
+    height: 100%;
+    max-height: 500px;
 }
 
 .pdf{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .controls{
@@ -13,13 +15,15 @@
     margin-top: 1em;
 }
 
-/* .buttons{
-display: flex;
-} */
 
 .page{
     margin-top: 1em;
     display: flex;
     justify-content: center;
     font-weight: bold;
+
+}
+
+.pdfPage{
+    border: solid 2px red;
 }

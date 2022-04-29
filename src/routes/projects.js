@@ -37,7 +37,7 @@ function Projects() {
       </Card>
         </Col>
         <Col className={css.col}>
-        <ProjectCard leftButton={'Hunter'} rightButton={'Trevecca'} title={'Web Copy'} image={"https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
+        <ProjectCard rightClick={"https://industrialfans.hunterfan.com/pages/warehouse"} leftClick={"https://www.trevecca.edu/academics/program/physician-assistant"} leftButton={'Hunter'} rightButton={'Trevecca'} title={'Web Copy'} image={"https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
         </Col>
         <Col className={css.col}>
         <ProjectCard leftButton={'Trailer Upgrade'} rightButton={'Roka'} title={'Print'} image={"https://images.unsplash.com/photo-1644952350841-070996fad2af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"}/>
