@@ -1,4 +1,4 @@
-import pdf from "../Pdf/sample_work_website.pdf"
+// import pdf from "../Pdf/sample_work_website.pdf"
 import React from "react";
 import css from "../styles/rokapdf.module.css"
 
