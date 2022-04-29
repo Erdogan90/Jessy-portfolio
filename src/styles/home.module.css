@@ -8,26 +8,29 @@ body{
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
+    color: #02111b;
 }
 
 .nav{
+    color: #02111b;
     display: flex;
     justify-content: right;
     padding:1em 2em 2em 1em;
-    background: #dda15e;
-    color: white;
-    justify-self: flex-start;
 }
-
 
 .link {
-    color: inherit;
-    text-decoration: inherit;
+    box-shadow: inset 0 0 0 0 #5d737e;
+  color: #02111b;
+  margin: 0.05rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  border: #5d737e 1px thin;
 }
 .link:hover{
-    text-decoration: underline #283618 3px;
+    box-shadow: inset 100px 0 0 0 #c03221;
+    color: white;
+    font-weight: bolder;
 }
-
 
 .text{
     position: relative;
@@ -37,7 +40,7 @@ body{
     min-height: 250px;
     text-align: center;
     background: #dda15e;
-    color: white;
+    color: #02111b;
     
 }
 

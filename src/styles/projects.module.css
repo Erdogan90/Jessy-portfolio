@@ -2,16 +2,23 @@ body{
     background: #fdfffc;
 }
 .nav{
+    color: #02111b;
     display: flex;
     justify-content: right;
 }
 
 .link {
-    color: inherit;
-    text-decoration: inherit;
+    box-shadow: inset 0 0 0 0 #5d737e;
+  color: #02111b;
+  margin: 0.05rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  border: #5d737e 1px thin;
 }
 .link:hover{
-    text-decoration: underline #283618 3px;
+    box-shadow: inset 100px 0 0 0 #c03221;
+    color: white;
+    font-weight: bolder;
 }
 
 .page{
@@ -19,6 +26,7 @@ body{
     padding: 1em;
     height: 100vh;
     flex-direction: column;
+    color: #02111b;
 }
 
 .col{
@@ -38,6 +46,7 @@ body{
     text-align: center;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #02111b;
 }
 
 .button a:visited{
@@ -46,7 +55,14 @@ body{
     
     .button{
         margin-left: 0.5em;
+        background-color: #3a3238;
+        border-color: unset;
     }
+    .button:hover{
+        background-color: #5d737e;
+        border-color: unset;
+    }
+
     
     .card{
         width: 22em;

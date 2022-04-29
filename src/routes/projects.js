@@ -3,8 +3,6 @@ import css from "../styles/projects.module.css"
 import { Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Project-Card";
 import { Card, Button } from "react-bootstrap";
-import nashville from "../images/Nashville shoe up.jpg"
-import echelon from "../images/echelon.JPG"
 import opry from "../images/Opry edited.jpg"
 
 
@@ -12,8 +10,8 @@ function Projects() {
     return (
       <div className={css.page}>
             <nav className={css.nav}>
-        <Link className={css.link} to="/Home">Home</Link> |{" "}
-        <Link className={css.link} to="/Projects">Projects</Link> |{" "}
+        <Link className={css.link} to="/Home">Home</Link> 
+        <Link className={css.link} to="/Projects">Projects</Link> 
         <Link className={css.link} to="/Contact">Contact</Link>
       </nav>
         <h2 className={css.header}>Projects</h2>
@@ -32,7 +30,7 @@ function Projects() {
       <Card.Img className={css.picture} variant="top" src={opry} />
       <Card.Body>
       <Card.Title>"Ideation & Branding"</Card.Title>
-      <Button className={css.button} variant="primary"><a href={"https://www.opry.com/opry-5000-landing-page/"}>Opry</a></Button>
+      <Button className={css.button} variant="light"><a href={"https://www.opry.com/opry-5000-landing-page/"}>Opry</a></Button>
       <Link to="/RokaPdf">
       <Button className={css.button} variant="primary">Roka</Button>
       </Link>

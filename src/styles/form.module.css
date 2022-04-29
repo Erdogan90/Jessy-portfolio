@@ -1,9 +1,20 @@
-.button{
-    margin-top: 0.5em;
-}
+.button a:visited{
+    color: white;
+    }
+    
+    .button{
+        margin-left: 0.5em;
+        background-color: #3a3238;
+        border-color: unset;
+    }
+    .button:hover{
+        background-color: #5d737e;
+        border-color: unset;
+    }
+
 
 .message{
     padding: 2em;
     text-align: center;
-    
+    color: #02111b;
 }
