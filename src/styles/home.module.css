@@ -111,3 +111,11 @@ h5{
     padding-top: 20px;
     border-bottom: 2px solid #5d737e;
 }
+
+.contact{
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    color: white;
+    background-color: #55504f;
+}
