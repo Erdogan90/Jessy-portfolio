@@ -20,10 +20,10 @@ function Projects() {
         </Row>
         <Row className={css.row}>
         <Col className={css.col}>
-        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/blogs/fashion-trends-news/take-your-style-to-new-heights"} leftClick={"https://echelonfit.com/blogs/blog/walking-a-path-to-a-healthier-you"} leftButton={'Echelon'} rightButton={'Nashville shoe warehouse'} title={'Blog Work'} image={blog}/>
+        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/blogs/fashion-trends-news/take-your-style-to-new-heights"} leftClick={"https://echelonfit.com/blogs/blog/walking-a-path-to-a-healthier-you"} leftButton={'Echelon'} rightButton={'Genesco Inc.'} title={'Blog Work'} image={blog}/>
         </Col>
         <Col className={css.col}>
-        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/collections/slippers/products/levis-harbin-mens-clog-slipper"} leftClick={"https://echelonfit.com/products/echelon-smart-connect-bike-ex5"} leftButton={'Echelon'} rightButton={'Nashville shoe warehouse'} title={'E-Commerce'} image={ecomm}/>
+        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/collections/slippers/products/levis-harbin-mens-clog-slipper"} leftClick={"https://echelonfit.com/products/echelon-smart-connect-bike-ex5"} leftButton={'Echelon'} rightButton={'Genesco Inc.'} title={'E-Commerce'} image={ecomm}/>
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>

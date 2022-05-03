@@ -26,6 +26,7 @@ body{
 .page{
     display: flex;
     padding: 1em;
+    margin-bottom: 1em;
     flex-direction: column;
     color: #02111b;
 }
