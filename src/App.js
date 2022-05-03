@@ -18,12 +18,11 @@ function App() {
       </Row>
       <Row>
       <h2 className={styles.title}>Who | What | Where</h2>
-      <h5>Helping businesses all over the world share their stories & grow their potential. One word at a time."</h5>
+      <h5 className={styles.subtext}>Helping businesses all over the world share their stories & grow their potential.</h5>
+      <h5 className={styles.line}> One word at a time.</h5>
       </Row>
-      <Row>
+      <Row className={styles.projects}>
         <Projects/>
-      </Row>
-      <Row className={styles.about}>
       </Row>
       <Row className={styles.brands} >
       <Brands/>

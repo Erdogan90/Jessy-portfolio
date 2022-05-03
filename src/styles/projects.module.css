@@ -87,3 +87,8 @@ body{
     img.picture:hover {
         transform: scale(1.1);
       }
+
+      h4{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+      }

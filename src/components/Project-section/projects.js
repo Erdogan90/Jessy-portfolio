@@ -13,9 +13,10 @@ import web from "../../images/web copy.png"
 function Projects() {
     return (
       <div className={css.page}>
-        <h2 className={css.header}>Projects</h2>
+        <h1 className={css.header}>Work</h1>
         <Row className={css.info}>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <h4>Here's a small sampling of some past projects.</h4>
+        <h4>Take a closer look</h4>
         </Row>
         <Row className={css.row}>
         <Col className={css.col}>
