@@ -88,7 +88,7 @@ h5{
     position: relative;
     display: flex;
     align-items: center;
-    color: white;
+    background-color: white;
 }
 .projects{
     margin-top: 2em;

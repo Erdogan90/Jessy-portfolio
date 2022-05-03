@@ -70,6 +70,7 @@ body{
     .card{
         width: 22em;
         overflow: hidden;
+        box-shadow: 2px 2px 5px #3a3238;
     }
     
     a{
