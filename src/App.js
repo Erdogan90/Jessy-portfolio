@@ -14,8 +14,10 @@ function App() {
         <Link className={styles.link}to="/Home">Home</Link> 
         <Link className={styles.link} to="/Contact">Contact</Link>
       </nav>
-      <h1>Jessy Anne-Scott | Copywriter & Marketing Specialist</h1>
-      <h5>"What, Who, Where & How.</h5>
+      <h1 className={styles.header}>Jessy Anne-Scott | Copywriter & Marketing Specialist</h1>
+      </Row>
+      <Row>
+      <h2 className={styles.title}>Who | What | Where</h2>
       <h5>Helping businesses all over the world share their stories & grow their potential. One word at a time."</h5>
       </Row>
       <Row>
