@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom"
-import css from "../styles/projects.module.css"
+import css from "../../styles/projects.module.css"
 import { Row, Col } from "react-bootstrap";
-import ProjectCard from "../components/Project-Card";
+import ProjectCard from "../Project-Card/index";
 import { Card, Button } from "react-bootstrap";
-import opry from "../images/Opry edited.jpg"
 
 
 function Projects() {
@@ -22,7 +21,7 @@ function Projects() {
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
-      <Card.Img className={css.picture} variant="top" src={opry} />
+      <Card.Img className={css.picture} variant="top"  />
       <Card.Body>
       <Card.Title>"Ideation & Branding"</Card.Title>
       <Button className={css.button} variant="light"><a href={"https://www.opry.com/opry-5000-landing-page/"}>Opry</a></Button>

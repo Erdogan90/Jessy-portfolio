@@ -2,7 +2,7 @@ import styles from './styles/home.module.css'
 import { Link } from "react-router-dom"
 import { Row} from 'react-bootstrap';
 import Brands from './components/Brands/index';
-import Projects from './routes/projects';
+import Projects from '../src/components/Project-section/projects';
 
 
 
