@@ -24,6 +24,7 @@ function App() {
       <Row className={styles.projects}>
         <Projects/>
       </Row>
+      <Row className={styles.space}></Row>
       <Row className={styles.brands} >
       <Brands/>
       </Row>
