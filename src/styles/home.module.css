@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body{
      background: #fdfffc;
     overflow-x: hidden;
+}
+
+h1{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 0.3em;
+}
+
+h3, h4{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .page{
@@ -15,6 +29,7 @@ body{
     color: #02111b;
     display: flex;
     justify-content: right;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .link {

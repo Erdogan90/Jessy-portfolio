@@ -6,6 +6,7 @@ body{
     color: #02111b;
     display: flex;
     justify-content: right;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .link {
@@ -38,4 +39,5 @@ body{
     justify-content: center;
     padding-top: 0.5em;
     padding-bottom: 0.3em;
+    font-family: 'Montserrat', sans-serif;
 }
