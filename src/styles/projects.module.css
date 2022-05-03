@@ -28,7 +28,6 @@ body{
     padding: 1em;
     margin-bottom: 1em;
     flex-direction: column;
-    color: #02111b;
 }
 
 .col{
@@ -46,8 +45,6 @@ body{
 
 .header{
     text-align: center;
-    font-weight: bolder;
-    color: #02111b;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -92,3 +89,10 @@ body{
         text-align: center;
         font-family: 'Open Sans', sans-serif;
       }
+
+      .title{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: 0.5em;
+    }

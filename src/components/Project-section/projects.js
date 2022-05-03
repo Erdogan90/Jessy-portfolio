@@ -27,9 +27,9 @@ function Projects() {
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
+        <Card.Title className={css.title} >"Ideation & Branding"</Card.Title>
       <Card.Img className={css.picture} variant="top" src={ideation}/>
       <Card.Body>
-      <Card.Title>"Ideation & Branding"</Card.Title>
       <Button className={css.button} variant="light" ><a href={"https://www.opry.com/opry-5000-landing-page/"}>Opry</a></Button>
       <Link to="/RokaPdf">
       <Button className={css.button} variant="primary">Roka</Button>
@@ -42,9 +42,9 @@ function Projects() {
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
+        <Card.Title className={css.title}>Print</Card.Title>
       <Card.Img className={css.picture} variant="top" src={print} />
       <Card.Body>
-      <Card.Title>Print</Card.Title>
       <Link to="/RokaEuro">
       <Button className={css.button} variant="primary">Roka</Button>
       </Link>

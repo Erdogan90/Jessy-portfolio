@@ -1,5 +1,15 @@
 .logos{
-    height: 100px;
-    width: 100px;
+height: 20%;
+width: 20%;
+display: flex;
+margin: 20px 20px;
 }
 
+.div{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    justify-content: center;
+}
