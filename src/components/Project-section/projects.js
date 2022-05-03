@@ -44,9 +44,6 @@ function Projects() {
       <Card.Img className={css.picture} variant="top" src={print} />
       <Card.Body>
       <Card.Title>Print</Card.Title>
-      <Link to="/TrailerPdf">
-      <Button className={css.button} variant="primary">Trailer upgrade</Button>
-      </Link>
       <Link to="/RokaEuro">
       <Button className={css.button} variant="primary">Roka</Button>
       </Link>

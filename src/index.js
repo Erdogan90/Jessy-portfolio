@@ -5,7 +5,6 @@ import App from './App';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Contact from './routes/contact';
 import RokaPdf from './routes/rokapdf';
-import TrailerPdf from './routes/trailerpdf';
 import RokaEuro from './routes/rokaEuro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +15,6 @@ root.render(
   <Route path="Home" element={<App />} />
   <Route path="contact" element={<Contact />} />
   <Route path="rokapdf" element={<RokaPdf/>}/>
-  <Route path="trailerpdf" element={<TrailerPdf/>}/>
   <Route path="rokaEuro" element={<RokaEuro/>}/>
     </Routes>
   </BrowserRouter>
