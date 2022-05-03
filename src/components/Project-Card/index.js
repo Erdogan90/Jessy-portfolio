@@ -10,6 +10,7 @@ function ProjectCard({image, title, leftButton, rightButton, leftClick, rightCli
     <Card.Img className={css.picture} variant="top" src={image} />
     <Card.Body className={css.bodies}>
     <Button className={css.button} variant="light"><a href={leftClick}>{leftButton}</a></Button>
+    <div className={css.line}></div>
     <Button className={css.button} variant="light"><a href={rightClick}>{rightButton}</a></Button>
     </Card.Body>
     </Card>

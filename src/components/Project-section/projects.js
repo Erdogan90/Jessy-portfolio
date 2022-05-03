@@ -20,25 +20,26 @@ function Projects() {
         </Row>
         <Row className={css.row}>
         <Col className={css.col}>
-        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/blogs/fashion-trends-news/take-your-style-to-new-heights"} leftClick={"https://echelonfit.com/blogs/blog/walking-a-path-to-a-healthier-you"} leftButton={'Echelon'} rightButton={'Genesco Inc.'} title={'Blog Work'} image={blog}/>
+        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/blogs/fashion-trends-news/take-your-style-to-new-heights"} leftClick={"https://echelonfit.com/blogs/blog/walking-a-path-to-a-healthier-you"} leftButton={'Echelon Fitness'} rightButton={'Genesco Inc.'} title={'Blog Work'} image={blog}/>
         </Col>
         <Col className={css.col}>
-        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/collections/slippers/products/levis-harbin-mens-clog-slipper"} leftClick={"https://echelonfit.com/products/echelon-smart-connect-bike-ex5"} leftButton={'Echelon'} rightButton={'Genesco Inc.'} title={'E-Commerce'} image={ecomm}/>
+        <ProjectCard rightClick={"https://www.nashvilleshoewarehouse.com/collections/slippers/products/levis-harbin-mens-clog-slipper"} leftClick={"https://echelonfit.com/products/echelon-smart-connect-bike-ex5"} leftButton={'Echelon Fitness'} rightButton={'Genesco Inc.'} title={'E-Commerce'} image={ecomm}/>
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
         <Card.Title className={css.title} >"Ideation & Branding"</Card.Title>
       <Card.Img className={css.picture} variant="top" src={ideation}/>
       <Card.Body>
-      <Button className={css.button} variant="light" ><a href={"https://www.opry.com/opry-5000-landing-page/"}>Opry</a></Button>
+      <Button className={css.button} variant="light" ><a href={"https://www.opry.com/opry-5000-landing-page/"}>Grand Ole Opry</a></Button>
       <Link to="/RokaPdf">
-      <Button className={css.button} variant="primary">Roka</Button>
+      <div className={css.line}></div>
+      <Button className={css.button} variant="primary">Roka London Bag Company</Button>
       </Link>
       </Card.Body>
       </Card>
         </Col>
         <Col className={css.col}>
-        <ProjectCard rightClick={"https://industrialfans.hunterfan.com/pages/warehouse"} leftClick={"https://www.trevecca.edu/academics/program/physician-assistant"} leftButton={'Hunter'} rightButton={'Trevecca'} title={'Web Copy'} image={web}/>
+        <ProjectCard rightClick={"https://industrialfans.hunterfan.com/pages/warehouse"} leftClick={"https://www.trevecca.edu/academics/program/physician-assistant"} leftButton={'Hunter Fans'} rightButton={'Trevecca Nazarene University'} title={'Web Copy'} image={web}/>
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
@@ -46,7 +47,7 @@ function Projects() {
       <Card.Img className={css.picture} variant="top" src={print} />
       <Card.Body>
       <Link to="/RokaEuro">
-      <Button className={css.button} variant="primary">Roka</Button>
+      <Button className={css.button} variant="primary">Roka London Bag Company</Button>
       </Link>
       </Card.Body>
       </Card>
