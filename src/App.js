@@ -12,7 +12,6 @@ function App() {
     <Row className={styles.text}>
       <nav className={styles.nav}>
         <Link className={styles.link}to="/Home">Home</Link> 
-        <Link className={styles.link} to="/Projects">Projects</Link> 
         <Link className={styles.link} to="/Contact">Contact</Link>
       </nav>
       <h3>"What, Who, Where & How.</h3>
