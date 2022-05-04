@@ -15,7 +15,7 @@ function App() {
         <Link className={styles.link}to="/Home">Home</Link> 
         <Link className={styles.link} to="/Contact">Contact</Link>
       </nav>
-      <h1 className={styles.header}>Jessy Anne-Scott | Copywriter & Marketing Specialist</h1>
+      <h1 className={styles.header}>Jessy Anne Scott | Copywriter & Marketing Specialist</h1>
       </Row>
       <Row>
       <h2 className={styles.title}>Who | What | Where</h2>
@@ -32,7 +32,7 @@ function App() {
       <Row className={styles.contact}>
       <h1 className={styles.title}>Contact</h1>
       <h4 className={styles.subtext}>From copywriting to campaigns, lets talk about what I can do for you.</h4>
-      <h4 className={styles.subtext}> Drop me a note</h4>
+      <h4 className={styles.subtext}> Drop me a note.</h4>
       <ContactForm/>
       </Row>
       <Row className={styles.footer}>
