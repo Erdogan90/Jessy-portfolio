@@ -1,7 +1,7 @@
 import pdf from "../Pdf/Roka_whole.pdf"
 import React from "react";
 import css from "../styles/rokapdf.module.css"
-import {Document, Page, pdfjs} from "react-pdf"
+import {Document, Page, pdfjs,} from "react-pdf"
 import { useState } from "react";
 import {Button} from "react-bootstrap";
 
@@ -28,13 +28,14 @@ function RokaEuro() {
     }
   };
 
+
     return (
 <div className={css.div}>
 
   <Document className={css.pdf} file={pdf} 
     onLoadSuccess={onDocumentLoadSuccess}
     onContextMenu={(e) => e.preventDefault()}>
-  <Page className={css.pdfPage} pageNumber={pageNumber} />
+  <Page className={css.pdfPage} pageNumber={pageNumber}/>
   </Document>
   <div className={css.controls}>
   <Button variant="dark" className={css.buttons} onClick={prevPage} disabled={pageNumber === 1}>
