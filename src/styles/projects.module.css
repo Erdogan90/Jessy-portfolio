@@ -60,6 +60,7 @@ body{
         display: block;
         margin: auto;
         font-family: 'Open Sans', sans-serif;
+        
     }
     .button:hover{
         background-color: #5d737e;

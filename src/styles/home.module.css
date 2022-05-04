@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+.img{
+    height: 10%;
+    width: auto;
+}
+
 body{
-     background: #fdfffc;
+     background: white;
     overflow-x: hidden;
 }
 
@@ -9,18 +14,20 @@ body{
     padding-top: 1em;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+    background-color: yellow;
 }
 
-.header::after{
+
+.whiteSpace::after{
     content: "";
     display: flex;
     width: 72%;
-    padding-top: 0.5em;
+    padding-top: 1em;
     border-bottom: 2px solid #5d737e;
 }
 
 .title{
-    padding-top: 0.4em;
+    padding-top: 1.2em;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -31,13 +38,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.line{
+    background-color: white;
+}
+
 .line::after{
     content: "";
     display: flex;
     margin-left: 20%;
     width: 80%;
-    padding-top: 1em;
+    padding-top: 2em;
     border-bottom: 2px solid #5d737e;
+    background-color: white;
 }
 h5{
     text-align: center;
@@ -77,8 +89,7 @@ h5{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 50%;
-     background: #fdfffc;
+     background-color: yellow;
     color: #02111b;
     padding: 0.5em;
 }
@@ -92,7 +103,7 @@ h5{
 }
 .projects{
     margin-top: 0.5em;
-    background-color: #e0dcda;
+    background-color: white;
 }
 
 .brands::after{
@@ -117,11 +128,12 @@ h5{
     padding: 1em;
     flex-direction: column;
     color: white;
-    background-color: #55504f;
+    background-color: rgb(63, 61, 61);
 }
 
 .form{
     display: flex;
     flex-direction: column;
-    background-color: #55504f; 
+    background-color: rgb(63, 61, 61); 
+    color: white;
 }
