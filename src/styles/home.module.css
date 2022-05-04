@@ -119,3 +119,9 @@ h5{
     color: white;
     background-color: #55504f;
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #55504f; 
+}

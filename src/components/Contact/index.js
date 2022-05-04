@@ -34,7 +34,7 @@ function ContactForm(){
 
     return (
       <form action="" onSubmit={sendEmail}>
-
+            <div className={css.fullForm}>
             <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>
             <Form.Control placeholder="Name" name="fullName" />
@@ -54,7 +54,7 @@ function ContactForm(){
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows={5} placeholder="Enter your message" name="message" />
             </Form.Group>
-      
+            </div>
             <Button type="submit" className={css.button}>
               Submit
             </Button>

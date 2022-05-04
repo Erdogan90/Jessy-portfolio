@@ -3,10 +3,14 @@
     }
     
     .button{
-        margin-left: 0.5em;
+        margin-left: 5em;
         background-color: #3a3238;
         border-color: unset;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
     }
+
     .button:hover{
         background-color: #5d737e;
         border-color: unset;
@@ -17,4 +21,12 @@
     padding: 2em;
     text-align: center;
     color: #02111b;
+}
+
+.fullForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5em;
+    padding-right: 5em;
 }

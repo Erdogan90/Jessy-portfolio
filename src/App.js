@@ -33,6 +33,8 @@ function App() {
       <h1 className={styles.title}>Contact</h1>
       <h4 className={styles.subtext}>From copywriting to campaigns, lets talk about what I can do for you.</h4>
       <h4 className={styles.subtext}> Drop me a note.</h4>
+      </Row>
+      <Row className={styles.form}>
       <ContactForm/>
       </Row>
       <Row className={styles.footer}>
