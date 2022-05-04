@@ -14,14 +14,14 @@ function Brands (){
   return <div className={css.div}>
   <Row className={css.row}>
     <img className={css.logos} src={echelon} alt="echelon logo"/>
-    <img className={css.logos} src={genesco} alt="genesco logo"/>
     <img className={css.logos} src={hunter} alt="hunter logo"/>
     <img className={css.logos} src={opry} alt="opry logo"/>
+    <img className={css.logos} src={tarter} alt="tarter logo"/>
     </Row>
     <Row className={css.row}>
-    <img className={css.logos} src={tarter} alt="tarter logo"/>
-    <img className={css.logos} src={trevecca} alt="trevecca logo"/>
+    <img className={css.logos} src={genesco} alt="genesco logo"/>
     <img className={css.logos} src={roka} alt="roka logo"/>
+    <img className={css.logos} src={trevecca} alt="trevecca logo"/>
     </Row>
   </div>
 }
