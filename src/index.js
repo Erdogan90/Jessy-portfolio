@@ -11,7 +11,6 @@ root.render(
   <BrowserRouter>
   <Routes>
   <Route path="/" element={<App />} />
-  <Route path="Home" element={<App />} />
   <Route path="rokapdf" element={<RokaPdf/>}/>
   <Route path="rokaEuro" element={<RokaEuro/>}/>
     </Routes>

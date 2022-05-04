@@ -11,10 +11,6 @@ function App() {
   return (
     <div className={styles.page}>
     <Row className={styles.text}>
-      <nav className={styles.nav}>
-        <Link className={styles.link}to="/Home">Home</Link> 
-        <Link className={styles.link} to="/Contact">Contact</Link>
-      </nav>
       <h1 className={styles.header}>Jessy Anne Scott | Copywriter & Marketing Specialist</h1>
       </Row>
       <Row>
