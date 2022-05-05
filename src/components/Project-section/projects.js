@@ -41,7 +41,7 @@ function Projects() {
         </Col>
         <Col className={css.col}>
         <Card className={css.card}>
-        <Card.Title className={css.title} >"Ideation & Branding"</Card.Title>
+        <Card.Title className={css.title} >Ideation & Branding</Card.Title>
       <Card.Img className={css.picture} variant="top" src={ideation}/>
       <Card.Body>
       <Button className={css.button} variant="light" ><a href={"https://www.opry.com/opry-5000-landing-page/"}>Grand Ole Opry</a></Button>
