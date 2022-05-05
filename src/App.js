@@ -10,7 +10,6 @@ function App() {
   return (
     <div className={styles.page}>
     <ProfileImage/>
-    
       <div className={styles.whiteSpace}></div>
       <Row>
       <h2 className={styles.title}>Who | What | Where</h2>
