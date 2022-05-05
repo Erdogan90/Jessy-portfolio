@@ -3,19 +3,14 @@ import { Row} from 'react-bootstrap';
 import Brands from './components/Brands/index';
 import Projects from '../src/components/Project-section/projects';
 import ContactForm from './components/Contact';
-import jessy from "../src/images/P6130006.jpeg"
+import ProfileImage from './components/Profile-image';
 
 
 function App() {
   return (
     <div className={styles.page}>
-    <Row className={styles.text}>
-      <h1 className={styles.header}>Jessy Anne Scott | Copywriter & Marketing Specialist</h1>
-      </Row>
-      <div>
-      <img className={styles.img} alt={'Girl smiling'} src={jessy}>
-        
-      </img></div>
+    <ProfileImage/>
+    
       <div className={styles.whiteSpace}></div>
       <Row>
       <h2 className={styles.title}>Who | What | Where</h2>
