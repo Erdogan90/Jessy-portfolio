@@ -51,6 +51,10 @@ body{
 .button a:visited{
     color: white;
     }
+
+    .button a:hover{
+        color: #3a3238;
+        }
     
     .button{
         margin-left: 0.5em;
@@ -63,8 +67,9 @@ body{
         
     }
     .button:hover{
-        background-color: #5d737e;
+        background-color: yellow;
         border-color: unset;
+        color: #3a3238;
     }
 
     
