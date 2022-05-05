@@ -15,6 +15,7 @@ body{
     overflow-x: hidden;
 }
 
+
 .whiteSpace::after{
     content: "";
     display: flex;
